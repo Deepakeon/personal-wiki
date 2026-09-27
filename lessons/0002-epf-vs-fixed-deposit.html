@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lesson 0002: EPF vs Fixed Deposit (The Tax Drag Trap)</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/quiz.js"></script>
+</head>
+<body>
+
+  <header>
+    <p style="text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.2rem;">
+      EPFO Optimization Course &bull; Lesson 0002
+    </p>
+    <h1>EPF vs Fixed Deposit: The Silent Tax Drag</h1>
+  </header>
+
+  <p>
+    A common assumption is that bank Fixed Deposits (FDs) paying ~7.15% quarterly compound rival EPF's ~8.15%–8.25%.
+    On paper, 7.15% quarterly compounding yields <strong>8.38&times;</strong> over 30 years.
+    In real life, an FD delivers barely <strong>4.34&times;</strong>. Here is why EPF crushes bank FDs.
+  </p>
+
+  <h2>1. The Silent Killer: Tax Drag</h2>
+
+  <p>
+    Bank FD interest is <strong>taxed every single year at your income slab</strong> (30% + cess = 31.2%).
+    Even if you don't withdraw the interest, banks deduct TDS and the tax department demands payment annually.
+  </p>
+
+  <div class="box">
+    <h3>The 30-Year ₹1 Lakh Lumpsum Reality Check</h3>
+    <ul>
+      <li><strong>Bank FD (7.15% pre-tax, 30% slab):</strong> Effective post-tax return drops to <strong>4.92%</strong>. Your ₹1 Lakh becomes <strong>₹4.34 Lakh (4.34&times;)</strong>.</li>
+      <li><strong>EPF (8.25% tax-free, EEE):</strong> Retains 100% compounding. Your ₹1 Lakh becomes <strong>₹10.79 Lakh (10.79&times;)</strong>.</li>
+    </ul>
+    <p>
+      <strong>Result:</strong> EPF delivers <strong>2.48&times; MORE money</strong> than the FD after tax!
+    </p>
+  </div>
+
+  <h2>2. Pre-Tax Equivalent Yield (The 12% Math)</h2>
+
+  <p>
+    To generate an 8.25% post-tax return in a bank FD under the 30% tax bracket, the bank would need to offer an interest rate of:
+  </p>
+  <pre>Pre-Tax Yield Required = 8.25% / (1 - 0.312) = 11.99%</pre>
+  <p>
+    No scheduled commercial bank in India offers <strong>12.0% risk-free interest</strong>.
+  </p>
+
+  <h2>3. Four Big Reasons to Use EPF Over FDs</h2>
+
+  <div class="box">
+    <ol>
+      <li><strong>Free Employer Match:</strong> Your employer matches your contribution. An FD offers zero matching funds.</li>
+      <li><strong>Sovereign Guarantee:</strong> Bank FDs are insured only up to ₹5 Lakh per bank by DICGC. EPF is 100% sovereign-guaranteed by the Government of India.</li>
+      <li><strong>Section 10 Legal Immunity:</strong> Under Section 10 of the EPF Act, your EPF balance cannot be attached or frozen by any court decree or creditor. FDs can be frozen instantly.</li>
+      <li><strong>Exempt-Exempt-Exempt (EEE):</strong> Tax deduction on deposit (80C), tax-free annual growth, tax-free exit after 5 years.</li>
+    </ol>
+  </div>
+
+  <h2>Interactive Check</h2>
+
+  <div class="quiz-container">
+    <p><strong>Quick Question:</strong> Why does an 8.25% EPF beat a 7.15% quarterly-compounded FD by over 2.4&times; after 30 years?</p>
+    
+    <button class="quiz-option" onclick="selectOption(this, true, 'FD interest gets taxed every year at your tax slab, destroying compound growth, while EPF compounds fully tax-free.')">
+      FD interest is taxed every single year
+    </button>
+    <button class="quiz-option" onclick="selectOption(this, false, 'EPF interest is credited annually, while FDs compound quarterly. Quarterly compounding frequency does not bridge the massive tax gap.')">
+      EPF compounds faster every single quarter
+    </button>
+    <button class="quiz-option" onclick="selectOption(this, false, 'While banks have a ₹5 Lakh DICGC insurance limit, tax drag is the direct mathematical cause of the 2.4x wealth gap.')">
+      FD banks can fail without warning
+    </button>
+    <button class="quiz-option" onclick="selectOption(this, false, 'Section 10 shields against creditors, but the mathematical yield gap is driven entirely by tax-free compounding.')">
+      EPF accounts have complete court protection
+    </button>
+    
+    <div class="feedback"></div>
+  </div>
+
+  <h2>Next Steps & Primary Source</h2>
+
+  <p>
+    Review previous lesson: <a href="0001-salary-split-and-the-two-buckets.html">Lesson 0001: Two Buckets</a> | Reference: <a href="../reference/epfo-cheat-sheet.html">Cheat Sheet</a>.
+  </p>
+
+  <div class="primary-source">
+    <p>
+      <strong>Primary Tax Source:</strong> Section 10(11) and 10(12) of the 
+      <a href="https://incometaxindia.gov.in" target="_blank">Income Tax Act, 1961</a> (Tax exemptions for recognised provident funds).
+    </p>
+    <p>
+      <em>Reminder: Ask your agent any follow-up questions if anything in this comparison is unclear!</em>
+    </p>
+  </div>
+
+</body>
+</html>

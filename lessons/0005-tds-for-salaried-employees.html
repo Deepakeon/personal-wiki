@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lesson 0005: TDS in Layman Terms for Salaried Employees</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/quiz.js"></script>
+</head>
+<body>
+
+  <header>
+    <p style="text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.2rem;">
+      Salary &amp; Tax Optimization Course &bull; Lesson 0005
+    </p>
+    <h1>TDS in Plain English: Your Advance Tax Toll-Booth</h1>
+  </header>
+
+  <p>
+    When your monthly paycheck arrives, you notice a chunk of money missing labeled <strong>"TDS"</strong> (Tax Deducted at Source).
+    Many employees feel this is an extra punishment or a hidden fee. <strong>It is neither.</strong>
+  </p>
+
+  <h2>1. The Layman Analogy: The Pre-Paid Meter</h2>
+
+  <p>
+    The Income Tax Department knows that if employees were asked to pay a lump sum ₹2,00,000 tax bill at the end of March, most people would have already spent the money and default.
+  </p>
+  <div class="box">
+    <p>
+      <strong>TDS is simply an EMI (installment) for your income tax.</strong>
+    </p>
+    <p>
+      Under <strong>Section 192</strong> of the Income Tax Act, the government orders your employer to act as an unpaid tax collector.
+      Before your salary touches your bank account, your employer cuts your estimated monthly tax and deposits it into your central government tax account tied to your <strong>PAN</strong>.
+    </p>
+  </div>
+
+  <h2>2. How Your Employer Calculates Monthly TDS</h2>
+
+  <p>Your company's payroll software does this simple 4-step math at the start of every fiscal year (April):</p>
+  <ol>
+    <li><strong>Projects Annual Income:</strong> Estimates your total salary from April to March.</li>
+    <li><strong>Subtracts Deductions:</strong> Subtracts standard deduction (₹75k under new regime / ₹50k old regime) and any investment declarations you make (80C, 80D, HRA rent receipts).</li>
+    <li><strong>Calculates Total Year Tax:</strong> Finds your total annual tax liability according to official tax slabs.</li>
+    <li><strong>Divides by Remaining Months:</strong> Divides that total tax across the remaining months and deducts that exact fraction from each payslip.</li>
+  </ol>
+
+  <div class="warning">
+    <strong>The Jan–March Surprise:</strong> If you don't submit your investment proofs (rent receipts, life insurance receipts) to HR by December/January, payroll assumes you did zero investments. They will suddenly chop <strong>50%–70% of your take-home pay</strong> in January, February, and March to catch up!
+  </div>
+
+  <h2>3. What Happens If They Cut Too Much (Or Too Little)?</h2>
+
+  <div class="box">
+    <ul>
+      <li><strong>Too much deducted:</strong> When you file your ITR (Income Tax Return) in July, the government automatically refunds the extra money directly into your bank account with interest.</li>
+      <li><strong>Too little deducted:</strong> Common when you switch jobs mid-year and both employers give you the basic exemption limit. You will owe "Self-Assessment Tax" plus interest penalties under Section 234B/234C when filing ITR.</li>
+    </ul>
+  </div>
+
+  <h2>4. Three Golden Documents You Must Track</h2>
+  <ul>
+    <li><strong>Form 16:</strong> Issued by employer by June 15. Your certificate proving exactly how much salary was paid and how much TDS was sent to the government.</li>
+    <li><strong>AIS / Form 26AS:</strong> Your live passbook on the Income Tax e-filing portal. Shows every rupee of TDS deposited by your employer, bank, or mutual funds.</li>
+    <li><strong>Form 12BB:</strong> The declaration form you give HR to report rent and 80C investments so they don't over-deduct TDS.</li>
+  </ul>
+
+  <h2>Interactive Check</h2>
+
+  <div class="quiz-container">
+    <p><strong>Quick Question:</strong> What is TDS in simple layman terms for an employee?</p>
+    
+    <button class="quiz-option" onclick="selectOption(this, true, 'TDS is simply an advance prepayment installment towards your total annual income tax liability.')">
+      An advance prepayment installment toward your annual income tax liability
+    </button>
+    <button class="quiz-option" onclick="selectOption(this, false, 'TDS is not an extra or separate tax; it counts 100% towards your regular income tax bill.')">
+      A permanent extra penalty tax collected exclusively by private employers
+    </button>
+    <button class="quiz-option" onclick="selectOption(this, false, 'TDS has zero connection with medical insurance. It is purely income tax withholding.')">
+      A non refundable fee deducted strictly for national health insurance
+    </button>
+    <button class="quiz-option" onclick="selectOption(this, false, 'TDS is a central direct tax withholding mechanism, not a local property or municipal surcharge.')">
+      A flat municipal surcharge placed directly upon monthly apartment rentals
+    </button>
+    
+    <div class="feedback"></div>
+  </div>
+
+  <h2>Next Steps & Primary Source</h2>
+
+  <p>
+    Review reference: <a href="../reference/tds-cheat-sheet.html">TDS Cheat Sheet</a> | Previous: <a href="0004-switching-to-uncovered-firm-or-startup.html">Lesson 0004: Job Switching & Startups</a>.
+  </p>
+
+  <div class="primary-source">
+    <p>
+      <strong>Primary Legal Source:</strong> Section 192 (Salary Withholding) and Section 203 (Form 16 Certificate) of the 
+      <a href="https://incometaxindia.gov.in" target="_blank">Income Tax Act, 1961</a>.
+    </p>
+    <p>
+      <em>Reminder: Ask your agent any follow-up questions if anything about your payslip TDS or refund process is unclear!</em>
+    </p>
+  </div>
+
+</body>
+</html>

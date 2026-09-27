@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lesson 0001: The Salary Split & The Two Buckets (EPF vs EPS)</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/quiz.js"></script>
+</head>
+<body>
+
+  <header>
+    <p style="text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.2rem;">
+      EPFO Optimization Course &bull; Lesson 0001
+    </p>
+    <h1>The Salary Split: Your Piggy Bank vs The Pension Pool</h1>
+  </header>
+
+  <p>
+    Every month, your company deducts money from your salary for "PF", and adds an equal match.
+    Most salaried professionals assume this entire 24% is compounding in their personal bank account.
+    <strong>It is not.</strong>
+  </p>
+
+  <h2>The Layman Analogy: Two Different Buckets</h2>
+
+  <p>
+    Imagine you and your employer walk to a table with cash every month.
+    The law says <strong>12% of your Basic Pay</strong> must come out of your salary, and your employer must match another <strong>12%</strong>.
+  </p>
+
+  <div class="box">
+    <h3>Bucket 1: EPF (Your Personal Lockbox)</h3>
+    <p>
+      <strong>All 100% of your employee deduction</strong> goes straight into this lockbox.<br>
+      Only <strong>3.67%</strong> of your employer's match goes here.
+    </p>
+    <p>
+      <em>How it works:</em> This is your actual private money. The Government adds guaranteed compound interest (~8.15%–8.25% per year). What you put in plus interest is 100% yours upon retirement or exit.
+    </p>
+  </div>
+
+  <div class="box">
+    <h3>Bucket 2: EPS (The Shared Village Pension Pool)</h3>
+    <p>
+      The bulk of your employer's match—<strong>8.33%</strong> (capped at statutory wage ceiling, max ₹1,250/mo on ₹15k basic)—is diverted away from your personal savings into a national pension pool.
+    </p>
+    <p>
+      <em>How it works:</em> You <strong>never get this capital back with interest</strong>. It goes into a communal pool. In exchange, the government promises you a small monthly pension (formula-based, usually ₹1,000 to ₹3,500/month) after age 58, provided you worked at least 10 years.
+    </p>
+  </div>
+
+  <h2>Why This Matters for Your Wealth</h2>
+
+  <p>
+    Because 8.33% of basic goes to EPS rather than your compounding account, high earners who don't need a ₹2,000 monthly pension lose compounding power on that employer match.
+  </p>
+
+  <div class="warning">
+    <strong>Key Rule:</strong> If your basic salary at your very first EPF job was over ₹15,000/month, you are an <em>"excluded employee"</em> from EPS—meaning your employer can put the full 12% into your personal EPF lockbox instead of wasting it on EPS!
+  </div>
+
+  <h2>Interactive Check</h2>
+
+  <div class="quiz-container">
+    <p><strong>Quick Question:</strong> When your company pays their 12% contribution on a ₹15,000 basic salary, where does the majority of that money go?</p>
+    
+    <button class="quiz-option" onclick="selectOption(this, true, '8.33% (up to ₹1,250) is diverted to EPS pension pool, leaving only 3.67% for your personal EPF.')">
+      Eight point three percent goes to pension pool
+    </button>
+    <button class="quiz-option" onclick="selectOption(this, false, 'The employer 12% is split into EPS (8.33%) and EPF (3.67%). It does not all go to your PF.')">
+      Twelve point zero percent goes to your PF pool
+    </button>
+    <button class="quiz-option" onclick="selectOption(this, false, 'Only 3.67% of the employer match goes to your personal EPF lockbox.')">
+      Three point six percent goes to tax free pool
+    </button>
+    <button class="quiz-option" onclick="selectOption(this, false, 'EPFO does not allocate any contribution towards medical health insurance.')">
+      Six point zero percent goes to medical care pool
+    </button>
+    
+    <div class="feedback"></div>
+  </div>
+
+  <h2>Next Steps & Primary Source</h2>
+
+  <p>
+    Review the full statutory breakdown in the <a href="../reference/epfo.md">EPFO Primary Reference Guide</a> or check the <a href="../reference/epfo-cheat-sheet.html">Quick Reference Cheat Sheet</a>.
+  </p>
+
+  <div class="primary-source">
+    <p>
+      <strong>Primary Legal Source:</strong> Section 6 (Contributions) and Section 6A (Employees' Pension Scheme) of the 
+      <a href="https://www.epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/EPFAct1952.pdf" target="_blank">Employees' Provident Funds and Miscellaneous Provisions Act, 1952</a>.
+    </p>
+    <p>
+      <em>Reminder: Ask your agent any follow-up questions if anything in this split is unclear!</em>
+    </p>
+  </div>
+
+</body>
+</html>
